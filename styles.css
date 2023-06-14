@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid pink; */
+}
+
+/* --------------------HEADR---------------------- */
+.container{
+    margin: 0 auto;
+}
+
+header{
+    height: 70px;
+    background-color: #A3A656;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lista */
+.nav_head{
+    clear:both;
+    padding-left: 70px;
+    font-size: 16px;
+}
+nav ul{
+    list-style-type: none;   
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+nav ul li{
+    margin-right: 30px;
+    float: left;
+}
+nav ul li:hover{
+    color: #FFFF00;
+}
+
+/* Cuenta */
+
+.principal{
+    padding-right: 5px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.cuenta{
+    display: flex;
+}
+
+.miCuenta{
+    margin: 0 5px;
+    align-self:center;
+    font-size: 14px;
+}
+.es{
+    align-self:center;
+    font-size: 14px;
+}
+.idioma{
+    display: flex;
+    padding-left: 25px;
+}
+
+.bandera{
+    width: 41px; 
+    height: 33px;
+    align-self:center;
+    margin: 0 5px;
+
+}
+
+.arrow{
+    width: 14px; 
+    height: 9px;
+    align-self:center;
+    margin: 0 5px 3px;
+}
+
+
+/* --------------------Main------------------- */
+/* --------------------Box1------------------- */
+.box1__main{
+    background: url('./Images/main.png');
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 150px 150px;
+    width: 100%;
+    height: 598px;
+}
+.titulo__box1__main{
+    font-size: 48px;
+}
+.titulo__box1__main span{
+    
+    font-size: 96px;
+    font-family: 'Romanesco', cursive;
+    font-weight: normal;
+}
+.subtitulo__box1__main{
+    width: 600px;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.box2__main{
+    height: 100px;
+    background: #F2F6F6;
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------Box2------------------- */
+.reserva__box2__main{
+    display: flex;
+}
+.reserva__titulo__box2__main{
+    display: inline-block;
+    align-self:center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.reserva__datos__box2__main{
+    display: inline-block;
+    background: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius:15px 15px;
+    align-self:center;
+    margin-left: 20px;
+}
+
+.codigo__box2__main{
+    display: flex;
+    padding-left: 30px;
+}
+
+.codigo__titulo__box2_main{
+    display: inline-block;
+    align-self:center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.codigo__datos__box2__main{
+    display: flex;
+    background: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius:15px 15px;
+    align-self:center;
+    margin-left: 20px;
+}
+
+.codigo__back__box2__main{
+    align-self: center;
+    margin-left: 20px;
+    color:  #9E9A9A;
+    font-size: 16px;
+}
+
+/* --------------------Box3------------------- */
+.box3__main{
+    display: flex;
+    margin: 100px 74px;
+    box-sizing: border-box;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A3A656;
+    height: 60px;
+    border-radius: 15px 15px 0px 0px;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color:#F2F6F6;
+}
+
+.cards__main p{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.cards__main{
+    margin-right: 134px;
+    width: 300px;
+}
+
+.imagen__card{
+    width: 300px;
+}
+
+.reservar__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    height: 40px;
+    width: 120px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #F2F6F6;
+    font-weight: bold;
+}
+button:hover{
+    color: #384001;
+}
+
+.precio__card{
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    margin: 5px 20px;
+    font-weight: bold;
+}
+
+.contenerdor_i{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------Box4------------------- */
+
+.box4__main{
+    height: 770px;
+    background-color: #F2F6F6;
+}
+.box4__main h1{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.box4__contenedor{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.gold__box4{
+    margin: 60px 90px;
+    box-sizing: border-box;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo__beneficios{
+    height: 250px;
+    width: 250px;
+    border: 8px solid  #384001;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.box4__subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.box4__condiciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 250px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #F2F6F6;
+    font-weight: bold;
+}
+
+.box4__lista{
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* --------------------Footer------------------- */
+
+.footer{
+    height: 97px;
+    background-color: #384001;
+}
+
+.nav__footer{
+    display: flex;
+    height: 97px;
+}
+
+.nav__footer ul:nth-child(1) {
+    margin-left: 70px;
+}
+
+.lista__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista__footer li{
+    margin: 0px 20px;
+    color: #F2F6F6;
+}
+
+.lista__footer img{
+    padding-left: 10px;
+}
+
+#siguenos__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    color: #F2F6F6;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
